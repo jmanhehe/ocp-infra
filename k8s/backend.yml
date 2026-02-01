@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/jmanhehe/ocp-guestbook/backend:1.0.13-4fe9dcb
+        image: ghcr.io/jmanhehe/ocp-guestbook/backend:1.0.15-73d26fe
         imagePullPolicy: Always
         ports:
         - name: http
